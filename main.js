@@ -42,7 +42,7 @@ const getForecast = async () => {
 
   try {
 const response = await fetch(urlToFetch);
-if (respone.ok){
+if (response.ok){
   const jsonResponse = await response.json();
   return jsonResponse;
 
