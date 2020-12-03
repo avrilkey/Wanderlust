@@ -81,6 +81,6 @@ const executeSearch = () => {
   getVenues().then(venues => renderVenues(venues));
   getForecast().then(forecast => renderForecast(forecast));
   return false;
-}
+};
 
 $submit.click(executeSearch)
