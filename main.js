@@ -34,7 +34,7 @@ try {
     console.log(error);
      }
 
-  }
+  };
 
 
 const getForecast = async () => {
